@@ -36,49 +36,19 @@
 
   ## Feature list
   * denotes on my to do for the project
-  2.5 days = 20 hours
-
+  3 days = 30 hours
+  My plan is to have an interactive note taking/to do list app inspired by Google Keep which I use daily. I like to implement the features I've kept from the list we created as a class below and I believe it'd take me roughly 30 hours to complete all the necessary features. My end goal is to practice the skills we've learned here at HREXT and showcase my skills as well as deliver a clean product that delivers on its functionality.
+  
   ### difficulty scale 1-10. 1 meaning it's already finished 10 meaning what?!?!
 
-  5 = 3 hours
-  7 = 5 hours
-  10 = full day + ??
-
   *(5) add due date
-  *(7) time stamps (moment.js)
-  (5) format the display of the items in a list (need to add more detail)
-  (??) fix the layout
-  (7) color coded priority
-  highlight certain items
-  mouse over to see details
-  ability to select and delete multiple items (checkbox?)
-  add status/priorty and allow for sorting based on status/priority
-  Item categories
-  ability to add/leave comments on item
-  upload files/images
-  share item
-  drag and drop to arrange
-  search/filter on keyup/keydown
-  reminders? (push operation?)
-  secret corgi
-  delete item confirmation
-  fillet edges of boxes
-  font changes/choices? (google fonts)
-  Panic Button
-  Highlight based on status/priority/due date
-  options page (ability to set/toggle options)
-  show deleted items and allow for undelete
-  pagination (if more than 10 show a next button)
-  category pages (not really pages, just a show/hide trick)
-  strike-through completed/deleted items (styling)
-  add more items button, that shows another input section allowing for multiple items to be added at once
-  Fun stuff
-  auto-complete when searching/filtering
-
-
-
-
-
-
-
-
+  *(2) time stamps (moment.js)
+  *(2) ability to select and delete multiple items (checkbox?)
+  *(5) add status/priority and allow for sorting based on status/priority
+  *(5) upload files/images
+  *(2) drag and drop to arrange
+  *(3) reminders? (push operation?)
+  *(1<) font changes/choices? (google fonts)
+  *(1<) Panic Button
+  *(2) Highlight based on status/priority/due date
+  *(3) add more items button, that shows another input section allowing for multiple items to be added at once
