@@ -1,24 +1,42 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-  <head>
-    <meta charset="UTF-8">
-    <title>My First CRUD App</title>
-    <link rel="stylesheet" href="app.css">
-    <script
-            src="https://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+<DOCTYPE html!>
 
-  </head>
-  <body>
+    <head>
+        <title>New Age of Heroes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel = "Stylesheet" href = "css/app.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
 
-  <input type="text" class="user-input-title" placeholder="Enter the Title">
-  <textarea class="user-input-body" placeholder="Enter the body of text"></textarea>
+    <body>
 
-  <button class="add-text-btn">add text</button>
-  <button class="del-text-btn">delete text</button>
+        <div id = "item">
+            <h1> SAVE THE WORLD <i id="atom" class="fas fa-atom"></i> </h1>
 
-  <div class="display"></div>
-  </body>
-</html>
+            <input type = "text" placeholder="Add New Enemy">
+
+            <ul class="items">
+                
+                <li><span><i class="fas fa-trash-alt"></i></span>It was...</li>
+                <li><span><i class="fas fa-trash-alt"></i></span>Is...</li>
+                <li><span><i class="fas fa-trash-alt"></i></span>...AND WILL ALWAYS BE...</li>
+                <li><span><i class="fas fa-trash-alt"></i></span>DOOM who pulls the strings!!!</li>
+            </ul>
+
+            <div id= "buttons">
+                <button class="save">Save</button>
+                <button class="clear">Clear</button>
+                <button class="fightBtn">FIGHT</button>
+            </div>
+        </div>
+
+        <div id = "overlay">
+           <a href="javascript:void(0)" class="closebtn">&times;</a>
+           <ul class="FIGHT">
+               <iframe width="1680" height="945" src="https://www.youtube.com/embed/TKgYU8vekY0?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </ul>
+
+        </div>
+        <script src="Js/app.js"></script>
+    </body>
+</DOCTYPE>
